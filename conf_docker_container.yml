@@ -1,0 +1,13 @@
+- hosts: all
+  become: true
+
+  tasks:
+    - name: ensure a container is running
+      docker_container:
+        name: my_container
+        state: started
+        image: priyanshu18/quote-app
+        pull: true
+        ports:
+          - "3000:3000"
+        

@@ -1,0 +1,9 @@
+[prometheus]
+13.233.26.208
+
+[node_exporter]
+13.233.26.208
+
+[alertmanager]
+13.233.26.208
+
