@@ -4,7 +4,7 @@
   tasks:
     - name: ensure a container is running
       docker_container:
-        name: my_container
+        name: my_container123
         state: started
         image: priyanshu18/quote-app
         pull: true
